@@ -160,8 +160,9 @@ body {
   padding-bottom: 3rem;
 }
 .hero__container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
 }
 .hero__title {
   font-weight: 800;
@@ -284,5 +285,10 @@ body {
   .auth__list {
     flex-direction: row;
     gap: 1rem;
+  }
+  .hero__container {
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
   }
 }
