@@ -5,8 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1746950234794"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1746950234794">
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1746960542124"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1746960542124">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -48,7 +48,30 @@
 					</div>
 				</div>
 			</header>
-			<main class="page page--home"></main>
+			<main class="page page--home">
+				<section class="hero">
+					<div class="hero__container">
+						<div class="hero__content">
+							<h1 class="hero__title">Collectible Sneakers</h1>
+							<p class="hero__description">
+								Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris. Pharetra, eu
+          imperdiet ipsum ultrices amet.
+							</p>
+							<div class="hero__actions">
+								<button class="hero__button hero__button--primary">Sign up now</button>
+								<button class="hero__button hero__button--secondary">Watch Demo</button>
+							</div>
+						</div>
+						<div class="hero__image">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/col-600.webp 1x,./assets/img/col-600-2x.webp 2x,./assets/img/col-600-3x.webp 3x" type="image/webp">
+								<source media="(max-width: 1440px)" srcset="./assets/img/col-1440.webp 1x,./assets/img/col-1440-2x.webp 2x,./assets/img/col-1440-3x.webp 3x" type="image/webp">
+								<img alt="Collectible Sneaker" class="hero__img" width="486" height="423" src="./assets/img/col.webp" srcset="./assets/img/col.webp 1x,./assets/img/col-2x.webp 2x,./assets/img/col-3x.webp 3x">
+							</picture>
+						</div>
+					</div>
+				</section>
+			</main>
 			<footer data-fls-footer="" class="footer">
 				<div class="footer__container"></div>
 			</footer>
